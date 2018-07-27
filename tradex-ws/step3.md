@@ -1,4 +1,3 @@
-##### Connect to SocketCluster Server (Tradex-WS)
 
 To connect to SocketCluster Server, we use method **create** (or **connect** for socket-client version < v10.0.0)
 
@@ -17,7 +16,7 @@ socket.on('connect', function () {
 });
 </pre>
 
-##### Connection Options
+**Connection Options**
 Options is optional,it's infomation contains port, host, security...
 
 See all available options :
