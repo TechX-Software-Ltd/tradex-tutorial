@@ -15,15 +15,15 @@
         "verify": "step2-verify.sh"
       },
       {
-        "title": "Connect to Tradex-WS",
+        "title": "Connect and Subscribe channel from Tradex-WS",
         "text": "step3.md"
       },
       {
-        "title": "Subscribe Channel from Tradex-WS",
+        "title": "Connect to SocketCluster Server",
         "text": "step4.md"
       },
       {
-        "title": "Demo",
+        "title": "Subscribe channel from SocketCluster Server",
         "text": "step5.md"
       }
     ],
