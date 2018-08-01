@@ -9,7 +9,7 @@ var socketCluster = require('socketcluster-client');
 
 var options = {
   port: 8000,
-  hostname:'52.77.225.82'
+  hostname:'tradex-dev.tk'
   };
 
 // Initiate the connection to the server
