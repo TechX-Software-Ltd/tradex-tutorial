@@ -6,10 +6,12 @@ Copy following content to _client.js_:
 
 <pre class="file" data-filename="client.js" data-target="replace">
 var socketCluster = require('socketcluster-client');
+var scCodecMinBin = require('sc-codec-min-bin');
 
 var options = {
   port: 8000,
-  hostname:'dev1tradex.ddns.net'
+  hostname:'dev1tradex.ddns.net',
+  codecEngine: scCodecMinBin,
   };
 
 // Initiate the connection to the server
