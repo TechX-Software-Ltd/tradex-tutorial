@@ -10,8 +10,9 @@ var scCodecMinBin = require('sc-codec-min-bin');
 
 var options = {
   port: 8000,
-  hostname:'dev1tradex.ddns.net',
+  hostname:'beta.vcsc.com.vn',
   codecEngine: scCodecMinBin,
+  secure: true
   };
 
 // Initiate the connection to the server
