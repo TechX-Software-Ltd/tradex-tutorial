@@ -1,1 +1,1 @@
-[ -d /home/scrapbook/tutorial/node_modules ] && echo "done"
+[ -d /root/node_modules ] && echo "done"
